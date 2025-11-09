@@ -10,4 +10,8 @@
       keyMap = lib.mkForce "fr";
       useXkbConfig = true;
     };
+
+    services.xserver = {
+      xkb.layout = "fr";
+    };
 }

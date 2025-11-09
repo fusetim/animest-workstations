@@ -11,4 +11,4 @@ The configurations are designed to be as lightweight as possible, given the limi
 
 ## Install process
 
-See https://nix.dev/tutorials/nixos/installing-nixos-on-a-raspberry-pi
+See https://nixos.wiki/wiki/NixOS_on_ARM#Installation and https://nix.dev/tutorials/nixos/installing-nixos-on-a-raspberry-pi

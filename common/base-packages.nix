@@ -10,6 +10,8 @@
         tree
         unzip
         zip
+        tmux
+        ncdu
     ];
 
     home-manager.useGlobalPkgs = true;

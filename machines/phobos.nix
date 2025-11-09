@@ -16,11 +16,16 @@
         ../services/openssh.nix
         # MINIMAL CONFIGURATION ABOVE
 
+        # ADDITIONAL CONFIGURATION BELOW
+        ../common/browser.nix
+        ../common/animest-ca.nix
+
         # SERVICES BELOW
         #../services/forgejo.nix
 
         # AUTHORIZED USERS BELOW
         ../users/fusetim.nix
+        ../users/staff.nix
     ];
 
     # Networking
