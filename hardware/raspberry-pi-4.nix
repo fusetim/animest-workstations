@@ -17,7 +17,7 @@
     raspberry-pi."4".apply-overlays-dtmerge.enable = true;
     deviceTree = {
       enable = true;
-      filter = "*rpi-4-*.dtb";
+      filter = "bcm2711-rpi-4*.dtb";
     };
     
     # Enable GPU acceleration
