@@ -3,6 +3,6 @@
     programs.firefox = {
       enable = true;
       package = pkgs.firefox;
-      languages = [ "fr" "en" ];
+      languagePacks = [ "fr" "en-US" ];
     };
 }
