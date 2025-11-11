@@ -14,6 +14,7 @@
         ../common/i18n.nix
         ../hardware/raspberry-pi-4.nix
         ../services/openssh.nix
+        ../common/ntp.nix
         # MINIMAL CONFIGURATION ABOVE
 
         # ADDITIONAL CONFIGURATION BELOW
